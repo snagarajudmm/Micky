@@ -1,6 +1,6 @@
 node {
     stage('Git'){
-      git 'https://github.com/javahometech/myweb'    
+      git 'https://github.com/snagarajudmm/Micky.git'    
       def mvnHome = tool 'Maven'
 def os = System.properties['os.name'].toLowerCase()
 stage('compile'){
